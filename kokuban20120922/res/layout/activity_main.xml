@@ -1,0 +1,100 @@
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/lib/com.google.ads"
+  xmlns:myapp="http://schemas.android.com/apk/res/jp.co.hiratsuka.kokuban"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical" 
+  android:id="@+id/top"
+  >
+  	
+<LinearLayout 
+     
+	android:id="@+id/middle"
+  	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:orientation="vertical"
+	>
+	<!--<jp.co.nobot.libAdMaker.libAdMaker
+		android:id="@+id/admakerview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:scrollbars="none" />
+	-->
+	<!-- <jp.Adlantis.Android.AdlantisView
+	    android:id="@+id/adView" 
+	    android:layout_width="fill_parent"
+		android:layout_height="50dip"
+		android:scrollbars="none" /> -->
+	
+	<jp.co.cayto.appc.sdk.android.LinearFloatView
+			android:id="@+id/floatview_1" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			appc_floatview_mode="B"
+	/>
+	<view class="jp.co.hiratsuka.kokuban.view.KokubanView"
+        android:id="@+id/kokuban_view"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        
+        android:enabled="true"
+		android:clickable="true"
+		android:background="@drawable/back"
+    	/>-->
+    
+</LinearLayout>    	
+    <LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    >
+		<Button 
+			android:layout_height="40dip" 
+			android:layout_width="48dip" 
+			android:id="@+id/elaseButton"
+			android:layout_marginLeft="13px"
+			android:layout_marginBottom="9px"
+			android:background="@drawable/elaser"
+			></Button>
+		<Button 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content"
+			android:id="@+id/whiteButton"
+			android:background="@drawable/white"
+			android:layout_marginLeft="13px"
+			android:layout_marginBottom="9px"></Button>
+		<Button 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:id="@+id/redButton"
+			android:background="@drawable/red"
+			android:layout_marginLeft="13px"
+			android:layout_marginBottom="9px"></Button>
+		<Button 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:id="@+id/blueButton"
+			android:background="@drawable/blue"
+			android:layout_marginLeft="13px"
+			android:layout_marginBottom="9px"></Button>
+		<Button 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:id="@+id/yellowButton"
+			android:background="@drawable/yellow"
+			android:layout_marginLeft="13px"
+			android:layout_marginBottom="9px"></Button>	
+		<Button 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:id="@+id/greenButton"
+			android:background="@drawable/green"
+			android:layout_marginLeft="13px"
+			android:layout_marginBottom="9px"></Button>				
+ 	</LinearLayout>
+
+</RelativeLayout>

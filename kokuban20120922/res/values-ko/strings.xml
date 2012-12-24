@@ -1,0 +1,30 @@
+
+<resources>  
+ <string name="app_name">칠판</string>       
+ <string name="PostExplain">화상과 함께 투고하는 코멘트를 입력해 주세요</string> 
+ <string name="now_sending">송신중 ...</string>  
+ <string name="sending_complete">송신 완료했습니다</string>
+ <string name="sending_error">송신 실패했습니다</string>
+ <string name="twitter_error">Twitter 송신 실패했습니다. ID와 패스워드를 확인해 주세요. 또, TwitPic을 사용할 수 있든가 확인해 주세요.</string>
+ <string name="facebook_error">Facebook 송신 실패했습니다</string>
+ <string name="twitterfacebook_error">Twitter・Facebook송신 실패했습니다</string>
+ <string name="api_response">Api Response:</string>
+ <string name="view_photo">View Photo</string>
+ <string name="external_title">Facebook 제휴</string>
+ <string name="save">보존한다</string>
+ <string name="close">종료한다</string>
+ <string name="save_complete">보존했습니다</string>
+ <string name="white">흰색 초크</string>
+ <string name="red">빨강 초크</string>
+ <string name="blue">파랑 초크</string>
+ <string name="yellow">황색 초크</string>
+ <string name="green">녹색 초크</string>
+ <string name="elase_mode">흑판 지워 모드</string>
+ <string name="select_elase">지우는 방법을 선택해 주세요</string>
+ <string name="all_elase">전 지워</string>
+ <string name="yubi_elase">손가락으로 지운다</string>
+ 
+ <string name="select_photo"></string>
+ <string name="image_get_error"></string>
+ <string name="default_elase"></string>
+</resources> 

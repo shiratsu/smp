@@ -1,0 +1,75 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.co.hiratsuka.kokuban"
+    android:versionCode="34"
+    android:versionName="2.1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+         >
+        <activity android:name=".SplashPageActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+		<activity android:name=".MainActivity" android:label="黒板" 
+		android:screenOrientation="portrait" 
+		></activity>
+		<activity android:name=".TwitterFacebookPreference" android:label="Twitter・Facebook連携設定" 
+		android:screenOrientation="portrait" 
+		></activity>
+       
+   	  <activity android:name="com.google.ads.AdActivity" 
+              android:configChanges="keyboard|keyboardHidden|orientation"/>
+   	  <meta-data android:name="Adlantis_Publisher_ID" android:value="MTI4NTA%3D%0A" />
+   	  <!-- appc_media_key: ここに発行されたメディアキーをセットしてください。下記設定値はテスト用です。 -->
+	  <meta-data android:name="appc_media_key" android:value="eee048dd7cccde423e95f9a30b308ed3b36f9ead" />
+	  
+	  <!--  以下、必ず固定でそのまま貼り付けてください。 -->
+        
+	 <!-- 利用規約画面: 旧バージョンとのコンパチブル用-->
+     <activity android:name="jp.co.cayto.appc.sdk.android.AgreementStarter"
+                             android:label="@string/app_name"  android:noHistory="true">
+
+     </activity>
+	 <activity android:name="jp.co.cayto.appc.sdk.android.FloatContents"
+               android:label="appC Contents" >
+     	</activity>
+     	<receiver android:name="jp.co.cayto.appc.sdk.android.background.BgAppReceiver">
+         	<intent-filter>
+             	<action android:name="jp.co.cayto.appc.sdk.android.remote.command.gid.search" />
+             	<action android:name="jp.co.cayto.appc.sdk.android.remote.command.gid.set" />
+             	<action android:name="jp.co.cayto.appc.sdk.android.remote.command.gid.remove" />
+         	</intent-filter>
+    		 </receiver>
+	<service
+		android:name="jp.co.cayto.appc.sdk.android.background.IDService"
+		android:process=":outerProcessX" />
+     	<receiver  android:name="jp.co.cayto.appc.sdk.android.background.BootStrap"
+             android:enabled="true"
+             android:exported="false"
+             android:label="BootStrap">
+		   <intent-filter>
+               <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+         <intent-filter>
+           	 <action android:name="android.intent.action.PACKAGE_ADDED" />
+               <action android:name="android.intent.action.PACKAGE_REMOVED" />
+               <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+               <data android:scheme="package"></data>
+            </intent-filter>
+	</receiver>
+	<!-- appC 基本設定 終了 -->
+    </application>
+	<uses-permission android:name="android.permission.INTERNET"/>
+  　<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	
+</manifest>

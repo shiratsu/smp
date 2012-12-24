@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent" android:layout_height="fill_parent"
+ android:orientation="vertical" >
+
+    
+    <LinearLayout
+      android:id="@+id/LayoutTop"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_alignParentTop="true">
+      <!-- <jp.Adlantis.Android.AdlantisView
+	    android:id="@+id/adView"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="50dp"
+	    android:layout_weight="1"
+	    android:layout_centerVertical="true"
+	    android:layout_centerHorizontal="true" 
+	    android:gravity="center" /> -->
+<!--<jp.co.nobot.libAdMaker.libAdMaker
+		android:id="@+id/admakerview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:scrollbars="none" />
+-->
+	<!--
+	
+        --><TextView
+              android:text="Twitter・Facebook連携設定"
+              android:textSize="18sp"
+              android:id="@+id/title"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="20px" />
+    </LinearLayout>
+    <!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1"
+                android:shrinkColumns="1"
+                >
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+             <TextView android:id="@+id/Caption"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:text="Twitter設定"
+
+              android:paddingLeft="10px" />
+
+            <CheckBox android:id="@+id/twitterPreference"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"></CheckBox>
+        </TableRow>
+        <TableRow
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content">
+
+             <TextView android:id="@+id/twitterId"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:text="TwitterId"
+
+              android:paddingLeft="10px" />
+               <EditText android:id="@+id/twitterIdText"
+                  android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:inputType="text"
+                   />
+        </TableRow>
+        <TableRow
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content">
+             <TextView android:id="@+id/passwordCaption"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:text="パスワード"
+              android:paddingLeft="10px" />
+               <EditText android:id="@+id/twitterPassword"
+                android:password="true"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:inputType="text"
+               />
+        </TableRow>
+
+
+    </TableLayout>
+
+    --><RelativeLayout
+        android:layout_width="fill_parent"
+        android:padding="6dip"
+        android:layout_height="?android:attr/listPreferredItemHeight">
+        <ImageView
+            android:id="@+id/user_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="6dip" />
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/user_pic" />
+
+
+
+        <Button
+                android:id="@+id/facebookLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/txt"
+                ></Button>
+
+    </RelativeLayout>
+</LinearLayout>

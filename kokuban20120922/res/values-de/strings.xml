@@ -1,0 +1,30 @@
+
+<resources>  
+ <string name="app_name">Tafel</string>    
+ <string name="PostExplain">Gib Kommentar bitte ein, um mit einem Bild beizutragen</string> 
+ <string name="now_sending">Während der Übermittlung ...</string>  
+ <string name="sending_complete">Ich übertrug eine Mitteilung und wurde vervollständigt</string>
+ <string name="sending_error">Ich übertrug eine Mitteilung und scheiterte</string>
+ <string name="twitter_error">Die Zwitschernübermittlung scheiterte. Identifiziere bitte ein Paßwort als AUSWEIS. Außerdem, bitte bestätige, ob du TwitPic benutzen kannst.</string>
+ <string name="facebook_error">Die Facebook-Übermittlung scheiterte</string>
+ <string name="twitterfacebook_error">Zwitschern, die Facebook-Übermittlung scheiterte</string>
+ <string name="api_response">Api Response:</string>
+ <string name="view_photo">View Photo</string>
+ <string name="external_title">Facebook-Zusammenarbeit</string>
+ <string name="save">Ballabwehr</string>
+ <string name="close">Wird beendet</string>
+ <string name="save_complete">Ich bewahrte es</string>
+ <string name="white">Weiße Kreide</string>
+ <string name="red">Rote Kreide</string>
+ <string name="blue">Blaue Kreide</string>
+ <string name="yellow">Gelbe Kreide</string>
+ <string name="green">grüne Kreide</string>
+ <string name="elase_mode">Radiergummiform</string>
+ <string name="select_elase">Wähle, wie zu töten ist, bitte</string>
+ <string name="all_elase">Alles; setze hinaus</string>
+ <string name="yubi_elase">Ich brachte es mit einem Finger hinaus</string>
+ 
+ <string name="select_photo">Wählen Sie das Bild</string>
+ <string name="image_get_error">Konnte nicht abgerufen werden das Foto</string>
+ <string name="default_elase">Initialisieren</string>
+</resources> 

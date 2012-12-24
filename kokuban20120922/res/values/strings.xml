@@ -1,0 +1,30 @@
+
+<resources>  
+ <string name="app_name">黒板</string>   
+ <string name="PostExplain">Please input comment to contribute with an image</string> 
+ <string name="now_sending">送信中...</string>  
+ <string name="sending_complete">送信完了しました</string>
+ <string name="sending_error">送信失敗しました</string>
+ <string name="twitter_error">Tweetに失敗しました。IDとパスワードを確認してください。</string>
+ <string name="facebook_error">facebookに投稿できませんでした</string>
+ <string name="twitterfacebook_error">Twitter,facebookに投稿できませんでした</string>
+ <string name="api_response">Api Response:</string>
+ <string name="view_photo">写真を見る</string>
+ <string name="external_title">外部連携タイトル</string>
+ <string name="save">保存する</string>
+ <string name="close">閉じる</string>
+ <string name="save_complete">保存しました</string>
+ <string name="white">白チョーク</string>
+ <string name="red">赤チョーク</string>
+ <string name="blue">青チョーク</string>
+ <string name="yellow">黄色チョーク</string>
+  <string name="green">緑チョーク</string>
+ <string name="elase_mode">消しゴムモード</string>
+ <string name="select_elase">消し方を選んでください</string>
+ <string name="all_elase">全部消す</string>
+ <string name="yubi_elase">指で消す</string>
+ 
+ <string name="select_photo">写真を選ぶ</string>
+ <string name="image_get_error">写真を取得できませんでした</string>
+ <string name="default_elase">初期化</string>
+</resources> 

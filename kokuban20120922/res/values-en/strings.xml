@@ -1,0 +1,30 @@
+  
+<resources>  
+ <string name="app_name">BlackBoard</string>    
+ <string name="PostExplain">Please input comment to contribute with an image</string> 
+ <string name="now_sending">During the transmission ...</string>  
+ <string name="sending_complete">I transmitted a message and was completed</string>
+ <string name="sending_error">I transmitted a message and failed</string>
+ <string name="twitter_error">The Twitter transmission failed. Please identify a password as ID. In addition, please confirm whether you can use TwitPic.</string>
+ <string name="facebook_error">The Facebook transmission failed</string>
+ <string name="twitterfacebook_error">Twitter, the Facebook transmission failed</string>
+ <string name="api_response">Api Response:</string>
+ <string name="view_photo">View Photo</string>
+ <string name="external_title">Facebook cooperation</string>
+ <string name="save">Save</string>
+ <string name="close">Is finished</string>
+ <string name="save_complete">I saved it</string>
+ <string name="white">White chalk</string>
+ <string name="red">Red chalk</string>
+ <string name="blue">Blue chalk</string>
+ <string name="yellow">Yellow chalk</string>
+  <string name="green">Green chalk</string>
+ <string name="elase_mode">Eraser mode</string>
+ <string name="select_elase">Please choose how to kill</string>
+ <string name="all_elase">All; put out</string>
+ <string name="yubi_elase">I put it out with a finger</string>
+ 
+ <string name="select_photo">Choose the image</string>
+ <string name="image_get_error">Could not get the photo</string>
+ <string name="default_elase">Initialize</string>
+</resources> 
